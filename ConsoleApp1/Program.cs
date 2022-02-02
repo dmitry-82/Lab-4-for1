@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-         int N = int.Parse(Console.ReadLine());
+            int N = int.Parse(Console.ReadLine());
             int s = 0;
             for (int i = 1; i <= N; i++)
             {
