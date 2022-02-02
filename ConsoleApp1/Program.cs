@@ -10,10 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-            for (int i = 1, i < 4; i++)
+         int N = int.Parse(Console.ReadLine());
+            int s = 0;
+            for (int i = 1; i <= N; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("Квадрат числа {0} равен {1}", i, s = s + (2 * i - 1));
             }
             Console.ReadKey();
         }
